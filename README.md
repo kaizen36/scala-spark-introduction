@@ -5,7 +5,8 @@ Repository documenting an introduction to Scala and Spark.
 ---
 
 # Notebooks
-0. [Basics](notebooks/00-basics.scala.ipynb)
+0. [Basics](notebooks/00 - basics.scala.ipynb)
+1. [Collections](notebooks/01 - collections.scala.ipynb)
 
 ---
 
