@@ -5,14 +5,15 @@ Repository documenting an introduction to Scala and Spark.
 ---
 
 # Notebooks
-0. [Basics](notebooks/00 - basics.scala.ipynb)
-1. [Collections](notebooks/01 - collections.scala.ipynb)
+0. [Basics](notebooks/00\ -\ basics.scala.ipynb)
+1. [Collections](notebooks/01\ -\ collections.scala.ipynb)
+2. [Flow Controls](notebooks/02\ -\ flowcontrols.scala.ipynb)
 
 ---
 
 # Installation
-Mac OS: https://medium.freecodecamp.org/installing-scala-and-apache-spark-on-mac-os-837ae57d283f
-Installing Scala kernel for Jupyter: http://almond-sh.github.io/almond/stable/docs/quick-start-install
+* [Mac OS](https://medium.freecodecamp.org/installing-scala-and-apache-spark-on-mac-os-837ae57d283f)
+* [Installing Scala kernel for Jupyter](http://almond-sh.github.io/almond/stable/docs/quick-start-install)
 
 # Why Scala?
 
