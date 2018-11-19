@@ -4,11 +4,15 @@ Repository documenting an introduction to Scala and Spark.
 
 ---
 
-# Notebooks
+# Contents
+## Notebooks on Scala Basics
 0. [Basics](notebooks/00%20-%20basics.scala.ipynb)
 1. [Collections](notebooks/01%20-%20collections.scala.ipynb)
 2. [Flow Controls](notebooks/02%20-%20flowcontrols.scala.ipynb)
 
+## Spark Basics
+0. [Notes](spark/spark-notes.md)
+1. [Spark Dataframes](spark/dataframes.scala)
 ---
 
 # Installation
