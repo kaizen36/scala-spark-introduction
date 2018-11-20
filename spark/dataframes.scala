@@ -98,5 +98,23 @@ df.select(stddev(df("High"))).show()
 // action such as show or collect
 
 // Aggregate functions
-val df3 = df.withColumn("Month", date_format(df("Date"), "M"))
-df3.groupBy("Month").mean().orderBy("Month desc").show()
+val df3 = df.withColumn("Year", date_format(df("Date"), "y"))
+df3.groupBy("Year").mean().orderBy(desc("Year")).show()
+
+/////////////////////////
+
+// Dealing with missing data
+
+// Create a dataframe
+val df_miss = Seq(("John",null,new Integer(24)),("Mary","plumber",new Integer(36)),("Ted","driver",new Integer(48)),("Agatha","writer",null)).toDF("name","job","age")
+
+df_miss.show()
+// drop any rows with null
+df_miss.na.drop().show()
+
+// fill null - note only will fill columns with correct type
+df_miss.na.fill(100).show()
+df_miss.na.fill("unemployed").show()
+
+// fill specific column
+df_miss.na.fill("unemployed", Array("job")).show()
