@@ -1,0 +1,4 @@
+metastore_db/*
+spark/metastore_db/*
+*-checkpoint.ipynb
+*.log
